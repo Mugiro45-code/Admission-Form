@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Container {
+    width: 90%;
+    margin: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.Heading {
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    border-radius: 5px;
+    border: 1px solid rgb(76, 76, 76);
+    box-shadow: 1px 1px 1px black;
+}
+
+.required {
+    color: red;
+    font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+    .Container {
+        max-width: 700px;
+        margin: 100px auto;
+    }
+}
